@@ -1,5 +1,8 @@
 # Sistem Manajemen Sewa Alat Snorkeling & Diving
 
+Nama: Muhammad Farel Awaluddin
+NIM: 2509116055
+
 ## Deskripsi
 
 Sistem Manajemen Sewa Alat Snorkeling & Diving merupakan program berbasis Java yang digunakan untuk membantu pemilik usaha dalam mengelola data alat snorkeling dan diving serta proses penyewaan alat.
@@ -103,13 +106,24 @@ Program menggunakan perulangan agar menu terus berjalan sampai pengguna memilih 
 Penjelasan Nilai Tambah:
 
 ### Access Modifier
-Atribut class menggunakan access modifier private.
+
+<img width="330" height="185" alt="image" src="https://github.com/user-attachments/assets/bf358e8d-6072-48f4-9490-d78470e591df" />
+
+Program menggunakan access modifier private pada atribut class AlatSelam. Hal ini digunakan untuk membatasi akses langsung terhadap data yang terdapat di dalam class sehingga data tidak dapat diakses atau diubah secara langsung dari luar class.
 
 ### Encapsulation
-Encapsulation diterapkan melalui getter dan setter untuk mengakses serta mengubah atribut tertentu.
+
+<img width="546" height="805" alt="image" src="https://github.com/user-attachments/assets/99ea671f-d862-481d-bd45-180003563a72" />
+
+Encapsulation diterapkan dengan menyembunyikan atribut menggunakan private dan menyediakan method getter dan setter untuk mengakses atau mengubah data. Dengan demikian, data pada object AlatSelam tidak diakses secara langsung dari luar class.
 
 ### Validasi Input
-Validasi digunakan untuk mencegah ID alat duplikat, tarif yang tidak sesuai, jumlah stok yang tidak sesuai, jumlah unit yang melebihi stok, dan durasi sewa yang tidak sesuai.
+
+<img width="616" height="163" alt="image" src="https://github.com/user-attachments/assets/9e17a149-ab70-4427-bb78-4b94d866329f" />
+
+<img width="635" height="178" alt="image" src="https://github.com/user-attachments/assets/03377155-1953-4ab2-b510-84969ea472a0" />
+
+Program menerapkan validasi input untuk memastikan nilai tarif per hari harus lebih dari 0. Jika pengguna memasukkan nilai 0 atau nilai negatif, program akan menampilkan pesan kesalahan dan data tidak akan disimpan.
 
 ## Perhitungan Biaya
 
